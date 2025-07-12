@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "armoraura",
+  "version": "1.0.0",
+  "name": "Armor Aura",
+  "description": "Displays 3D armor and durability above your player.",
+  "authors": ["DeathsAbyss"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/armoraura/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "meteor-addon": [
+      "dev.deathsabyss.armoraura.ArmorAuraAddon"
+    ]
+  },
+  "depends": {
+    "meteor-client": "*",
+    "fabricloader": ">=0.11.3"
+  }
+}
