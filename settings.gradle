@@ -1,8 +1,11 @@
+// Plugin repositories for Fabric mod development
 pluginManagement {
     repositories {
-        maven { url = 'https://maven.fabricmc.net/' }
-        gradlePluginPortal()
-        mavenCentral()
+        maven { url = 'https://maven.fabricmc.net/' }  // Fabric Maven repo
+        gradlePluginPortal()                           // Gradle plugin portal
+        mavenCentral()                                // Maven Central repo
     }
 }
+
+// Set the root project name to match your mod folder
 rootProject.name = 'ArmorAuraAddon'
